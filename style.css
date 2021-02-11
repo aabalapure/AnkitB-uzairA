@@ -4,9 +4,9 @@
   font-family: Georgia, "Times New Roman", Times, serif;
   overflow: inherit;
 }
-html {
+/* html {
     scroll-behavior: smooth;
-}
+} */
 
 body {
   background-color: rgb(43, 43, 43);
@@ -68,11 +68,12 @@ li {
   margin: 50px 120px 0px 0px;
 }
 
+
 #video {
   width: 50%;
   height: 500px;
   margin: 0 auto;
-  margin-top: 500px;
+  margin-top: 900px;
   display: block;
 }
 
