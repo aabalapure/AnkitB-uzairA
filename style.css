@@ -13,6 +13,7 @@ a,
 h4,
 a {
   color: #fff;
+  line-height: 30px;
 }
 
 ul,
@@ -151,11 +152,24 @@ li {
   font-size: 25px;
   font-weight: 300;
 }
+
+.footer-widget-heading-link h4{
+    font-weight: bold;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.footer-widget-heading-link{
+    margin-top: 50px;
+}
+
 /* footer credit css */
 
 .copyright-area {
   background-color: #3b3b3b;
   padding: 20px 0;
+  width: 100%;
+  margin-top: 50px;
 }
 
 .copyright-text p {
@@ -163,16 +177,40 @@ li {
 }
 
 .copyright-text a {
-  color: #85f2fa;
+  color: #28c01a;
   font-weight: 600;
   text-decoration: none;
 }
+.copyright-text a:hover{
+    color: rgb(60, 114, 214);
+}
 
 .footer-menus li {
-  display: inline-flex;
-  margin-left: 20px;
+  display: inline-block;
+  /* margin-left: 20px; */
+  margin-top: 10px;
+  padding-right: 50px;
 }
 
 .footer-menus li a {
   font-size: 18px;
+  text-decoration: none;
+}
+
+.footer-menus li a:hover{
+    color: rgb(34, 175, 29) ;
+}
+
+
+.linkediting a {
+  text-decoration: none;
+}
+
+.linkediting a:hover{
+    color: rgb(60, 114, 214);
+}
+
+.linkediting li{
+    display: inline-block;
+    padding-right: 40px;
 }
