@@ -1,0 +1,178 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+body {
+  background-color: rgb(43, 43, 43);
+}
+
+p,
+a,
+h4,
+a {
+  color: #fff;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+#header {
+  display: block;
+  background-color: rgb(0, 0, 0);
+  height: 120px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+#header-img {
+  width: 100px;
+  float: left;
+  margin: 10px 0px 0px 40px;
+  filter: grayscale(-100%);
+}
+
+#nav-bar {
+  display: inline-block;
+  float: right;
+}
+
+#nav-bar li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-weight: 300;
+}
+#nav-bar li a:hover {
+  color: rgb(119, 119, 119);
+  transition: 0.4s;
+}
+
+#nav-bar li {
+  display: inline-block;
+  padding-left: 90px;
+}
+
+#nav-bar ul {
+  margin: 50px 120px 0px 0px;
+}
+
+#video {
+  width: 50%;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 500px;
+  display: block;
+}
+
+#form {
+  text-align: center;
+  margin-top: 400px;
+}
+
+#form label {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 100;
+}
+
+#email {
+  width: 400px;
+  height: 30px;
+  border-radius: 8px;
+  margin-top: 10px;
+  border: 1px solid #fff;
+  padding-left: 20px;
+}
+#email:focus {
+  outline: none;
+}
+
+#submit {
+  width: 420px;
+  height: 30px;
+  margin-top: 20px;
+  font-size: 20px;
+  background-color: #296090;
+  color: #fff;
+  border: 0;
+  border-radius: 8px;
+}
+#submit:hover {
+  background-color: #122b41;
+  cursor: pointer;
+}
+
+#submit:focus {
+  outline: none;
+}
+
+/* Footer */
+#primary-footer {
+  background-color: rgb(43, 43, 43);
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 500px;
+  display: block;
+}
+
+.footer-widget-area {
+  padding: 50px 0;
+  width: 60%;
+}
+
+/* main footer inner css */
+
+.footer-widget-area p {
+  font-size: 20px;
+}
+
+.footer-widget-area li {
+  margin-top: 10px;
+}
+
+.footer-widget-area li a {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.footer-widget-area li a:hover {
+  text-decoration: none;
+  color: #75add3;
+}
+
+.footer-widget-heading h4 {
+  font-weight: bold;
+  font-size: 25px;
+  font-weight: 300;
+}
+/* footer credit css */
+
+.copyright-area {
+  background-color: #3b3b3b;
+  padding: 20px 0;
+}
+
+.copyright-text p {
+  font-size: 18px;
+}
+
+.copyright-text a {
+  color: #85f2fa;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.footer-menus li {
+  display: inline-flex;
+  margin-left: 20px;
+}
+
+.footer-menus li a {
+  font-size: 18px;
+}
